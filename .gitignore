@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# C++编译产物
+*.o
+*.obj
+*.dll
+*.dylib
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# TensorBoard日志
+runs/
+training_logs_*/
+*.tfevents.*
+
+# 训练模型和日志
+*.pth
+training_log_*.txt
+training_log_*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Colab
+.colab/
